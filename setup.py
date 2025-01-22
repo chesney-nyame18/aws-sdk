@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="aws-sdk",
+    name="aws_sdk",
     version="0.0.1",
     author="Chesney Nyame",
     author_email="ches_tech_cloud@outlook.com",
     description="Package to standardise aws boto set-up",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/chesney-nyame18/aws-sdk",
+    url="https://github.com/chesney-nyame18/aws_sdk",
     packages=setuptools.find_packages(),
     install_requires=[
           'boto3',
