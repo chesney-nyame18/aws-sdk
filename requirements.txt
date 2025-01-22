@@ -1,0 +1,4 @@
+pylint
+boto3
+botocore
+git+https://github.com/chesney-nyame18/logging-setup.git
